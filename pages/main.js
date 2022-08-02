@@ -63,7 +63,7 @@ const Main = ({_result=[]}) => {
                                     <img className="pic" src="https://dhgilmy0l2xzq.cloudfront.net/7ed9c347-9317-47af-8f6e-fe1be399e63c-20220802120709.jpeg" alt="johnnyjsuh님의 프로필 사진"/>
                                     <p>
                                         <span className="point-span">johnnyjsuh</span>님
-                                        <span className="point-span"> 외 1,412,751명</span>이
+                                        <span className="point-span"> 외 2,412,751명</span>이
                                         좋아합니다</p>
                                 </div>
                                 <div className="description">
