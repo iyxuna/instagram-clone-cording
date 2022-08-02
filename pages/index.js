@@ -9,12 +9,11 @@ const Index = props => {
     const router = useRouter();
 
     const handleSubmit = e => {
-        console.log("AAA");
         axios.post("/api/auth", { nickname: nickname, password: password }).then( res=>{
             if( res.data.user ){
                 router.push("/main");
             }else{
-                // alert(res.data.msg);
+                alert("잘못된 로그인 정보입니다. 다시 확인하세요.");
                 setNickname("");
                 setPassword("");
             }
@@ -86,6 +85,7 @@ Index.getLayout = page=>{
 
 export const getServerSideProps = async ctx=>{
     const _query = ctx.query;
+    console.log( "idx : ", ctx.req.user);
     return{
         props : {
         }

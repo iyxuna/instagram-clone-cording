@@ -4,6 +4,8 @@ const router = express.Router();
 const Post = require("../models/post");
 
 router.get("/", async (req, res)=>{
+   const _me = req.passport;
+   console.log("_me : " , _me);
    const result = await Post.find().exec();
 
    res.json({ data: result });
@@ -12,8 +14,6 @@ router.get("/", async (req, res)=>{
 // 글 작성
 router.post("/write", async (req, res)=>{
    const result = req.body;
-
-   console.log( "result : ", result );
 
    const newPost = new Post();
    newPost.image = result.image;

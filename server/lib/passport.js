@@ -5,7 +5,6 @@ const User = require("../models/user");
 
 passport.serializeUser(function(user, done){
     try{
-        console.log(user.nickname);
         done(null, user.nickname);
     }catch(e){
         console.log("serializeUser error : ", e);

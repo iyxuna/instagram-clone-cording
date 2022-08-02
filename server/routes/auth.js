@@ -15,8 +15,6 @@ router.get("/", async (req, res)=>{
 router.post("/signup", async (req, res)=>{
    const result = req.body;
 
-   console.log(result);
-
    // const findUser = await User.findOne({ name: result.name }).exec();
    // const userFlag = findUser ? true : false;
 
@@ -34,7 +32,6 @@ router.post("/signup", async (req, res)=>{
 // 로그인
 router.post("/", passport.authenticate("local", {failureRedirect: "/"}),
    (req, res)=>{
-   console.log("로그인 write.js", req.user);
    res.json({ user: req.user });
 });
 

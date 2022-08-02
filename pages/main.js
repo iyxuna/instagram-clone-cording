@@ -113,26 +113,26 @@ const Main = ({_result=[]}) => {
                             <span className="find-more">모두 보기</span>
                         </div>
                         <ul className="story-list">
-                            <li>
-                                <div className="gradient-wrap">
-                                    <img className="img-profile story" src="https://dhgilmy0l2xzq.cloudfront.net/7ed9c347-9317-47af-8f6e-fe1be399e63c-20220802120709.jpeg"
-                                     alt="wecode_bootcamp님의 프로필 사진"/>
-                                </div>
-                                <div className="profile-text">
-                                    <span className="userID point-span">wecode_bootcamp</span>
-                                    <span className="sub-span">12분 전</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="gradient-wrap">
-                                    <img className="img-profile story" src="https://dhgilmy0l2xzq.cloudfront.net/92fccacd-cba7-45e9-be6b-0f67d6084dc2-20220802120824.jpeg"
-                                     alt="han_ye_seul님의 프로필 사진"/>
-                                </div>
-                                <div className="profile-text">
-                                    <span className="userID point-span">han_ye_seul</span>
-                                    <span className="sub-span">28분 전</span>
-                                </div>
-                            </li>
+                            {/*<li>*/}
+                            {/*    <div className="gradient-wrap">*/}
+                            {/*        <img className="img-profile story" src="https://dhgilmy0l2xzq.cloudfront.net/7ed9c347-9317-47af-8f6e-fe1be399e63c-20220802120709.jpeg"*/}
+                            {/*         alt="wecode_bootcamp님의 프로필 사진"/>*/}
+                            {/*    </div>*/}
+                            {/*    <div className="profile-text">*/}
+                            {/*        <span className="userID point-span">wecode_bootcamp</span>*/}
+                            {/*        <span className="sub-span">12분 전</span>*/}
+                            {/*    </div>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                            {/*    <div className="gradient-wrap">*/}
+                            {/*        <img className="img-profile story" src="https://dhgilmy0l2xzq.cloudfront.net/92fccacd-cba7-45e9-be6b-0f67d6084dc2-20220802120824.jpeg"*/}
+                            {/*         alt="han_ye_seul님의 프로필 사진"/>*/}
+                            {/*    </div>*/}
+                            {/*    <div className="profile-text">*/}
+                            {/*        <span className="userID point-span">han_ye_seul</span>*/}
+                            {/*        <span className="sub-span">28분 전</span>*/}
+                            {/*    </div>*/}
+                            {/*</li>*/}
                         </ul>
                     </div>
                     <div className="section-recommend">
@@ -141,17 +141,17 @@ const Main = ({_result=[]}) => {
                             <span className="find-more">모두 보기</span>
                         </div>
                         <ul className="recommend-list">
-                            <li>
-                                <div className="recommend-friend-profile">
-                                    <img className="img-profile" src="https://dhgilmy0l2xzq.cloudfront.net/38407483-d2cb-404d-ba69-596b4dceabfc-20220802121015.jpeg"
-                                     alt="renebaebae님의 프로필 사진"/>
-                                    <div className="profile-text">
-                                        <span className="userID point-span">renebaebae</span>
-                                        <span className="sub-span">hi_sseulgi님 외 2명이 팔로우합니다</span>
-                                    </div>
-                                </div>
-                                <span className="btn-follow">팔로우</span>
-                            </li>
+                            {/*<li>*/}
+                            {/*    <div className="recommend-friend-profile">*/}
+                            {/*        <img className="img-profile" src="https://dhgilmy0l2xzq.cloudfront.net/38407483-d2cb-404d-ba69-596b4dceabfc-20220802121015.jpeg"*/}
+                            {/*         alt="renebaebae님의 프로필 사진"/>*/}
+                            {/*        <div className="profile-text">*/}
+                            {/*            <span className="userID point-span">renebaebae</span>*/}
+                            {/*            <span className="sub-span">hi_sseulgi님 외 2명이 팔로우합니다</span>*/}
+                            {/*        </div>*/}
+                            {/*    </div>*/}
+                            {/*    <span className="btn-follow">팔로우</span>*/}
+                            {/*</li>*/}
                         </ul>
                     </div>
 

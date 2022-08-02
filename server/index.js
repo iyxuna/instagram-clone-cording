@@ -53,6 +53,10 @@ app.prepare().then(() => {
     server.use(cors());
 
     server.use("/", routes);
+    server.use("/main", (req, res, next)=>{
+        console.log("next: ", req.user);
+        return next();
+    });
 
     server.all("*", (req, res)=>{
        return handle(req, res);
